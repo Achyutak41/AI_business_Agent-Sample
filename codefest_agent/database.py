@@ -1,17 +1,23 @@
 from pymongo import MongoClient
 from dotenv import load_dotenv
+import streamlit as st
 import os
 from datetime import datetime, timedelta
 
 load_dotenv()
 
+def get_env(key):
+    try:
+        return st.secrets[key]
+    except:
+        return os.getenv(key)
 def get_db():
     client = MongoClient(
-        os.getenv("MONGO_URL"),
+        getenv("MONGO_URL"),
         tls=True,
         tlsAllowInvalidCertificates=True
     )
-    db = client[os.getenv("DB_NAME")]
+    db = client[getenv("DB_NAME")]
     return db
 
 def check_cache(query):

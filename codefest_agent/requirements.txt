@@ -1,11 +1,8 @@
-duckduckgo-search
-ddgs>=9.5.2
-bs4 
 pymongo
 python-dotenv
+ddgs
+beautifulsoup4
 requests
-difflib
-verifier
 pandas
 reportlab
-pydantic 
+streamlit
