@@ -2,9 +2,16 @@
 
 > An AI-powered business discovery, verification, and reporting platform that researches businesses from multiple online sources, validates information, assigns trust scores, caches results using MongoDB, and generates professional PDF reports.
 
-🏆 Developed for **Chettinad CodeFest 2026**
-👨‍💻 Team Members: **Achyuta K** & **Bhuvaneshwari**
-🎓 SASTRA University
+<div align="center">
+
+🏆 **Chettinad CodeFest 2026 — Finals**  
+👨‍💻 **Team_name:**  NexoByte   
+👨‍💻 **Team_members:** Achyuta k, Bhuvaneshwari D  
+🎓 **SASTRA Deemed University, Thanjavur**
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://intelligent-business-agent-codefest.streamlit.app)
+
+</div>
 
 ---
 
@@ -12,19 +19,19 @@
 
 Finding accurate business information online often requires browsing multiple websites, comparing details, removing duplicates, and validating data manually.
 
-The **AI Business Research Agent** automates this process by:
+The **AI Business Research Agent** automates this entire process by:
 
-* Searching businesses across multiple online sources
-* Collecting and consolidating business information
-* Verifying business details
-* Detecting conflicts and inconsistencies
-* Removing duplicate records
-* Assigning trust scores
-* Caching results using MongoDB
-* Generating professional PDF reports
-* Providing data quality analytics
+* Searching businesses across multiple online sources using DuckDuckGo
+* Collecting and consolidating business information via BeautifulSoup scraping
+* Verifying business details across multiple sources
+* Detecting conflicts and inconsistencies automatically
+* Removing duplicate records using phone + address matching
+* Assigning trust scores (1–10) based on data completeness
+* Caching results using MongoDB Atlas for instant repeat queries
+* Generating professional downloadable PDF reports
+* Providing real-time data quality analytics dashboard
 
-The system helps users quickly identify reliable businesses while reducing the effort required for manual research.
+The system helps users quickly identify reliable businesses while reducing hours of manual research into seconds.
 
 ---
 
@@ -32,16 +39,17 @@ The system helps users quickly identify reliable businesses while reducing the e
 
 ### 🔎 Intelligent Business Search
 
-Search businesses using natural language queries:
+Search businesses using natural language queries in any language:
 
 ```text
 Dentist in Thanjavur
 Cardiologists in Birmingham
 Plumbers in Houston
 Restaurants in Chennai
+Family Lawyers in Chicago
 ```
 
-The AI agent gathers information from multiple sources and presents a consolidated report.
+The AI agent gathers information from multiple sources and presents a consolidated verified report.
 
 ---
 
@@ -49,11 +57,11 @@ The AI agent gathers information from multiple sources and presents a consolidat
 
 The platform verifies:
 
-* Phone Numbers
-* Websites
-* Ratings
-* Working Hours
-* Business Information Consistency
+* Phone Numbers — cross-checked across sources
+* Websites — validated for accessibility
+* Ratings — extracted and normalized
+* Working Hours — parsed from business pages
+* Business Information Consistency — flagged when conflicting
 
 Businesses with more complete and reliable data receive higher trust scores.
 
@@ -61,90 +69,98 @@ Businesses with more complete and reliable data receive higher trust scores.
 
 ### 🎯 Trust Score Calculation
 
-Each business receives a **Trust Score (0–10)** based on:
+Each business receives a **Trust Score (1–10)** based on:
 
-* Data completeness
-* Verification confidence
-* Information consistency
-* Source reliability
-
-Example:
+| Factor | Points |
+|--------|--------|
+| Phone number found | +2 |
+| Address found | +2 |
+| Website available | +1 |
+| Rating available | +1 |
+| Working hours found | +1 |
+| Email found | +1 |
+| Multiple sources confirmed | +1 |
+| Conflict detected | -1 per conflict |
 
 ```text
-Trust Score: 8/10
+Trust Score 8–10 → Highly Reliable
+Trust Score 5–7  → Moderately Reliable
+Trust Score 1–4  → Low Confidence
 ```
 
 ---
 
 ### ⚠ Conflict Detection
 
-The system identifies conflicting information across sources, such as:
+The system identifies conflicting information across sources:
 
-* Different phone numbers
-* Different websites
-* Different working hours
-* Inconsistent business details
+* Different phone numbers from different directories
+* Inconsistent business names across listings
+* Conflicting working hours
 
-Conflicts are highlighted to help users make informed decisions.
+All conflicts are highlighted with ⚠️ warnings in the dashboard so users can make informed decisions.
 
 ---
 
 ### ⚡ Smart MongoDB Caching
 
-To improve performance and reduce unnecessary web requests, the system uses MongoDB as a caching layer.
+To improve performance and reduce unnecessary web requests, the system uses **MongoDB Atlas** as a caching layer.
 
 #### Cache Workflow
 
-1. User submits a query.
-2. System checks MongoDB cache.
-3. If results exist:
-
-   * Return cached results instantly.
-4. If results do not exist:
-
-   * Perform live research.
-   * Verify and process data.
-   * Store results in MongoDB.
-   * Return fresh results.
+```text
+User Query
+    ↓
+Check MongoDB Atlas Cache
+    ↓
+Cache HIT  ──→  Return results in < 2 seconds
+    ↓
+Cache MISS ──→  Live scraping pipeline
+                    ↓
+               Verify + Deduplicate
+                    ↓
+               Store in MongoDB
+                    ↓
+               Return fresh results
+```
 
 #### Benefits
 
-✅ Faster response times
+✅ Repeat queries answered in under 2 seconds
 
-✅ Reduced web requests
+✅ Zero redundant web requests
 
-✅ Better scalability
+✅ Research history preserved across sessions
 
-✅ Improved user experience
+✅ Works offline for cached queries
 
-✅ Research history preservation
+✅ 24-hour cache expiry for fresh data
 
 ---
 
 ### 📊 Research Analytics Dashboard
 
-Provides key insights including:
+Real-time insights including:
 
 * Businesses Found
-* Businesses Verified
+* Businesses Verified (Trust Score ≥ 5)
 * Duplicates Removed
 * Sources Searched
 * Research Duration
-* Data Quality Statistics
+* Data Quality Statistics (% with phone, address, website, rating, hours)
 
 ---
 
 ### 📄 Professional PDF Reports
 
-Generate downloadable reports containing:
+Generate downloadable PDF reports containing:
 
-* Search Summary
+* Search Summary with all metrics
 * Data Quality Analysis
-* Business Listings
-* Trust Scores
-* Conflict Information
-
-Perfect for research, lead generation, and business intelligence workflows.
+* Complete Business Listings
+* Trust Scores per business
+* Conflict flags and warnings
+* SASTRA University + CodeFest branding
 
 ---
 
@@ -153,203 +169,96 @@ Perfect for research, lead generation, and business intelligence workflows.
 ```text
                     ┌─────────────────┐
                     │   User Query    │
+                    │  (Any Language) │
                     └────────┬────────┘
                              │
                              ▼
                  ┌──────────────────────┐
-                 │  AI Research Agent   │
+                 │   AI Research Agent  │
+                 │      agent.py        │
                  └──────────┬───────────┘
                             │
                ┌────────────┴────────────┐
                │                         │
                ▼                         ▼
-      MongoDB Cache Check        Multi-Source Search
-
+    MongoDB Cache Check          Multi-Source Search
+      database.py                   search.py
                │                         │
-       Cache Hit                     Cache Miss
+          Cache HIT               Cache MISS
                │                         │
                ▼                         ▼
-      Return Results          Data Collection Pipeline
-                                        │
-                                        ▼
-                              Verification Engine
-                                        │
-                                        ▼
-                              Duplicate Removal
-                                        │
-                                        ▼
-                            Trust Score Calculation
-                                        │
-                                        ▼
+      Return Results         scraper.py (BeautifulSoup)
+      in < 2 seconds                     │
+                                         ▼
+                              deduplicator.py
+                              (Phone + Address Match)
+                                         │
+                                         ▼
+                                   verifier.py
+                                (Trust Score 1-10)
+                                         │
+                                         ▼
                                Store in MongoDB
-                                        │
-                                        ▼
-                           Dashboard + PDF Report
-```
-
----
-
-## 🔄 Workflow
-
-```text
-User Query
-     ↓
-MongoDB Cache Lookup
-     ↓
-Cache Miss
-     ↓
-Search Multiple Sources
-     ↓
-Extract Business Information
-     ↓
-Verify & Validate Data
-     ↓
-Detect Conflicts
-     ↓
-Remove Duplicates
-     ↓
-Calculate Trust Score
-     ↓
-Store Results in MongoDB
-     ↓
-Generate Dashboard
-     ↓
-Export PDF Report
+                                         │
+                                         ▼
+                           Streamlit Dashboard + PDF
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend
-
-* Streamlit
-
-### Backend
-
-* Python
-
-### Database
-
-* MongoDB
-
-### Data Collection & Processing
-
-* Requests
-* BeautifulSoup
-* JSON Parsing
-* Multi-Source Web Scraping
-* Business Verification Pipeline
-
-### Reporting
-
-* ReportLab
-
-### Caching
-
-* MongoDB Query Cache
-
-### Libraries Used
-
-```python
-streamlit
-pymongo
-requests
-beautifulsoup4
-reportlab
-json
-time
-io
-```
+| Layer | Technology |
+|-------|-----------|
+| Frontend UI | Streamlit |
+| Backend Agent | Python 3.13 |
+| Search Engine | DuckDuckGo Search (ddgs) |
+| Web Scraping | BeautifulSoup4 + Requests |
+| Database / Cache | MongoDB Atlas (Free Tier) |
+| PDF Generation | ReportLab |
+| Deduplication | difflib SequenceMatcher |
+| Environment | python-dotenv |
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-AI-Business-Research-Agent/
+codefest_agent/
 │
-├── app.py                    # Streamlit Application
-├── agent.py                  # AI Research Agent
-├── database.py               # MongoDB Operations
-├── cache_manager.py          # Cache Handling Logic
+├── app.py                # Streamlit UI — dark themed dashboard
+├── agent.py              # Main pipeline — connects all modules
+├── search.py             # DuckDuckGo multi-source search
+├── scraper.py            # BeautifulSoup business data extractor
+├── deduplicator.py       # Phone + address duplicate detection
+├── verifier.py           # Trust score calculator
+├── database.py           # MongoDB Atlas cache operations
+├── report.py             # JSON + PDF report generator
 │
-├── reports/
-│   └── research_report.pdf
-│
-├── data/
-│
-├── .env
-├── requirements.txt
-│
+├── requirements.txt      # All dependencies
+├── .env                  # Environment variables (not committed)
 └── README.md
 ```
 
 ---
 
-## 🚀 Installation
+## 🚀 Installation & Setup
 
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/AI-Business-Research-Agent.git
-
-cd AI-Business-Research-Agent
+git clone https://github.com/Achyutak41/AI_business_Agent-Sample.git
+cd AI_business_Agent-Sample
 ```
 
----
-
-### 2. Create Virtual Environment
-
-```bash
-python -m venv venv
-```
-
-Activate:
-
-#### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-#### Linux / macOS
-
-```bash
-source venv/bin/activate
-```
-
----
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
 
-### 4. Configure Environment Variables
-
-Create a `.env` file:
-
-```env
-MONGO_URI=mongodb://localhost:27017
-DATABASE_NAME=business_research
-COLLECTION_NAME=business_cache
-```
-
----
-
-### 5. Start MongoDB
-
-```bash
-mongod
-```
-
----
-
-### 6. Run Application
+### 4. Run Application
 
 ```bash
 streamlit run app.py
@@ -360,110 +269,54 @@ streamlit run app.py
 ## 🎯 Usage
 
 ### Step 1
-
-Launch the Streamlit application.
+Launch the Streamlit application at `http://localhost:8501`
 
 ### Step 2
-
-Enter a business search query.
-
-Example:
-
-```text
-Dentist in Thanjavur
-```
+Enter any business search query — e.g. `Dentist in Thanjavur`
 
 ### Step 3
-
-Click:
-
-```text
-🔍 Search Businesses
-```
+Click **🔍 Search Businesses**
 
 ### Step 4
-
-The AI Agent will:
-
-* Check MongoDB cache
-* Search multiple sources
-* Verify business information
-* Remove duplicates
-* Detect conflicts
+The AI Agent will automatically:
+* Check MongoDB cache first
+* Search DuckDuckGo for business URLs
+* Scrape each URL for business details
+* Remove duplicate businesses
+* Detect conflicting information
 * Calculate trust scores
+* Store results in MongoDB
 
 ### Step 5
-
-View results in the dashboard.
+View verified business cards with trust scores in the dashboard
 
 ### Step 6
-
-Download the PDF report.
+Download the PDF report using **⬇ Download PDF Report**
 
 ---
 
 ## 📊 Example Output
 
-### Query
+### Query: `Dentist in Thanjavur`
 
-```text
-Dentist in Thanjavur
-```
-
-### Research Summary
-
-| Metric              | Value   |
-| ------------------- | ------- |
-| Businesses Found    | 10      |
-| Businesses Verified | 3       |
-| Duplicates Removed  | 0       |
-| Time Taken          | 0.1 sec |
+| Metric | Value |
+|--------|-------|
+| Businesses Found | 10 |
+| Businesses Verified | 8 |
+| Duplicates Removed | 1 |
+| Sources Searched | 15 |
+| Time Taken | 31 sec (live) / 0.1 sec (cache) |
 
 ### Data Quality
 
-| Metric        | Coverage |
-| ------------- | -------- |
-| Phone Numbers | 30%      |
-| Websites      | 100%     |
-| Ratings       | 30%      |
-| Working Hours | 60%      |
+| Metric | Coverage |
+|--------|----------|
+| Phone Numbers | 80% |
+| Websites | 100% |
+| Ratings | 50% |
+| Working Hours | 60% |
 
 ---
-
-## 📈 Trust Score Levels
-
-| Score  | Meaning             |
-| ------ | ------------------- |
-| 8 – 10 | Highly Reliable     |
-| 5 – 7  | Moderately Reliable |
-| 1 – 4  | Low Confidence      |
-
----
-
-## 💡 Use Cases
-
-### Business Intelligence
-
-Research local businesses quickly.
-
-### Lead Generation
-
-Generate verified business leads.
-
-### Market Research
-
-Analyze businesses within a specific region.
-
-### Competitor Analysis
-
-Discover competitors and compare business information.
-
-### Business Directory Creation
-
-Build verified business databases automatically.
-
----
-
 ---
 
 ## 📸 Screenshots
@@ -506,86 +359,73 @@ Generated business research report available for download.
 ![PDF Report](/codefest_agent/Screenshots/sample_pdf.png)
 
 ---
+## 💡 Use Cases
 
-## 🌍 Impact
-
-The AI Business Research Agent reduces manual effort involved in business discovery and verification by automating:
-
-* Business research
-* Data verification
-* Duplicate detection
-* Trust assessment
-* Report generation
-
-This enables researchers, marketers, startups, and business analysts to obtain reliable business information in seconds instead of hours.
+| Use Case | Description |
+|----------|-------------|
+| Business Intelligence | Research local businesses quickly |
+| Lead Generation | Generate verified business contact lists |
+| Market Research | Analyze businesses in a specific region |
+| Competitor Analysis | Discover and compare competitor information |
+| Business Directory | Build verified business databases automatically |
 
 ---
 
 ## 🔮 Future Enhancements
 
-* Google Maps Integration
+* Google Maps API Integration
 * AI-Powered Lead Scoring
-* CRM Integration
 * CSV / Excel Export
-* Email Extraction
-* Contact Validation
-* Multi-language Support
-* Business Categorization
-* Advanced Verification Engine
-* Cloud Deployment
+* Email Extraction & Validation
+* Multi-language Query Support
 * Real-Time Business Monitoring
-* AI-Powered Recommendation System
+* CRM Integration
+* Advanced Conflict Resolution Engine
 
 ---
 
 ## 🏆 Hackathon Details
 
-### Event
-
-Chettinad CodeFest 2026
-
-### Project
-
-AI Business Research Agent
-
-### Theme
-
-AI-Powered Business Intelligence & Automation
+| Detail | Info |
+|--------|------|
+| Event | Chettinad CodeFest 2026 |
+| Round | Finals — Direct Shortlist |
+| Domain | Intelligent Business Systems |
+| Organizer | Overseas Cyber Technical Services Pvt. Ltd., Karaikudi |
+| Project | AI Business Research Agent |
 
 ---
-
 ## 👨‍💻 Team
 
-### Achyuta K
-B.Tech Computer Science and Engineering
-SASTRA University
+<div align="center">
 
-### Bhuvaneshwari
-B.Tech Computer Science and Engineering SASTRA University
+🤝 **Team NexoByte — SASTRA Deemed University, Thanjavur**
 
----
+| | |
+|:---:|:---:|
+| 🧑‍💻 **Achyuta K** | 👩‍💻 **Bhuvaneshwari** |
+| B.Tech CSE | B.Tech CSE |
+| SASTRA Deemed University | SASTRA Deemed University |
+| [![GitHub](https://img.shields.io/badge/GitHub-Achyutak41-181717?style=flat&logo=github&logoColor=white)](https://github.com/Achyutak41) | [![GitHub](https://img.shields.io/badge/GitHub-BhuvaneshwariDhanabal-181717?style=flat&logo=github&logoColor=white)](https://github.com/Bhuvaneshwari-Dhanabal) |
+| [![LinkedIn](https://img.shields.io/badge/LinkedIn-achyutak41-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/achyutak41) | [![LinkedIn](https://img.shields.io/badge/LinkedIn-bhuvaneshwarid48-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bhuvaneshwarid48/) |
 
-## 📜 License
+</div>
 
-This project is developed for educational, research, and hackathon purposes.
-
----
-
+---  
 ## ⭐ Acknowledgements
 
-Special thanks to:
-
-* Chettinad CodeFest 2026
-* SASTRA University
-* MongoDB
-* Streamlit
-* ReportLab
+* Chettinad CodeFest 2026 — OCTS Pvt. Ltd.
+* SASTRA Deemed University
+* MongoDB Atlas — Free cloud database
+* Streamlit — Rapid UI development
+* DuckDuckGo — Free search API
+* ReportLab — PDF generation
 * Open Source Python Community
 
 ---
 
 # 🔍 AI Business Research Agent
 
-### Find • Verify • Analyze • Report
+### Find • Verify • Deduplicate • Score • Report
 
-Transforming scattered business information into reliable, actionable insights through AI-powered research and verification.
+*Transforming scattered business information into reliable, actionable intelligence through AI-powered research and verification.*
