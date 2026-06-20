@@ -13,11 +13,11 @@ def get_env(key):
         return os.getenv(key)
 def get_db():
     client = MongoClient(
-        getenv("MONGO_URL"),
+        get_env("MONGO_URL"),
         tls=True,
         tlsAllowInvalidCertificates=True
     )
-    db = client[getenv("DB_NAME")]
+    db = client[get_env("DB_NAME")]
     return db
 
 def check_cache(query):
