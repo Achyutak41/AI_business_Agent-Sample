@@ -1,0 +1,180 @@
+{
+  "search_summary": {
+    "query": "Dentist in Thanjavur",
+    "timestamp": "2026-06-20T15:01:56.750527",
+    "businesses_found": 10,
+    "businesses_verified": 3,
+    "duplicates_removed": 0,
+    "sources_searched": 15,
+    "research_duration": "36.2 seconds",
+    "source": "live"
+  },
+  "data_quality": {
+    "records_with_phone": "30%",
+    "records_with_address": "0%",
+    "records_with_website": "100%",
+    "records_with_rating": "30%",
+    "records_with_hours": "60%"
+  },
+  "businesses": [
+    {
+      "business_name": "Contact Vels Dental Clinic",
+      "phone": "9894888736",
+      "address": null,
+      "website": "https://velsdental.in/contact.html",
+      "working_hours": "Monday \u2013 Saturday 10:00 AM \u2013 1:00 PM 6:00 PM \u2013 9:00 PM Sunday Holiday \u2014 Closed WhatsApp Direct Msg 9",
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://velsdental.in/contact.html",
+        "phone": "https://velsdental.in/contact.html",
+        "working_hours": "https://velsdental.in/contact.html"
+      },
+      "trust_score": 5,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Hospital Dental Treatment",
+      "phone": "7598295088",
+      "address": null,
+      "website": "https://www.rosedentalcarecentre.com/contact.html",
+      "working_hours": "Monday-Saturday: Mor- 9:30 am- 2:00 pm   Eve - 5:30 pm-8:30 pm Sunday: Holiday About Us Rose MultiSp",
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.rosedentalcarecentre.com/contact.html",
+        "phone": "https://www.rosedentalcarecentre.com/contact.html",
+        "working_hours": "https://www.rosedentalcarecentre.com/contact.html"
+      },
+      "trust_score": 5,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Contact",
+      "phone": "090431 3741",
+      "address": null,
+      "website": "https://thanjaidental.com/contact/",
+      "working_hours": "Monday-Sunday 09:00 AM - 09:00 PM Hospital Based Dental Practice 24x7 Emergency Dentist Open Get In",
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://thanjaidental.com/contact/",
+        "phone": "https://thanjaidental.com/contact/",
+        "working_hours": "https://thanjaidental.com/contact/"
+      },
+      "trust_score": 5,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Dental Clinics in Thanjavur",
+      "phone": null,
+      "address": null,
+      "website": "https://yellowpages.webindia123.com/d-py/Tamil-Nadu/Thanjavur/Clinics-Dental-369/1/",
+      "working_hours": "amil Nadu Home News Career Yellow Pages Movies Health Videos Blog More + Home News Career Yellow Pag",
+      "rating": 1.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://yellowpages.webindia123.com/d-py/Tamil-Nadu/Thanjavur/Clinics-Dental-369/1/",
+        "working_hours": "https://yellowpages.webindia123.com/d-py/Tamil-Nadu/Thanjavur/Clinics-Dental-369/1/"
+      },
+      "trust_score": 4,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Top 10 Dental Clinics in Thanjavur, Best Dental Clinics in Thanjavur ...",
+      "phone": null,
+      "address": null,
+      "website": "https://yellowpages.webindia123.com/d-py/Tamil-Nadu/Thanjavur/Dental-Clinics-369/1/",
+      "working_hours": "amil Nadu Home News Career Yellow Pages Movies Health Videos Blog More + Home News Career Yellow Pag",
+      "rating": 1.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://yellowpages.webindia123.com/d-py/Tamil-Nadu/Thanjavur/Dental-Clinics-369/1/",
+        "working_hours": "https://yellowpages.webindia123.com/d-py/Tamil-Nadu/Thanjavur/Dental-Clinics-369/1/"
+      },
+      "trust_score": 4,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Thanjai Dental, Thanjavur",
+      "phone": null,
+      "address": null,
+      "website": "https://thanjaidental.in/",
+      "working_hours": "Monday - Saturday 08:00 - 20:00 Sunday - On Appointment +91 94431 37414 thanjaidentist@gmail.com Wha",
+      "rating": 1.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://thanjaidental.in/",
+        "working_hours": "https://thanjaidental.in/"
+      },
+      "trust_score": 4,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Best Dentists in Thanjavur - Top BEST Dentists near me - Justdial",
+      "phone": null,
+      "address": null,
+      "website": "https://www.justdial.com/Thanjavur/Dentists/nct-10156331",
+      "working_hours": null,
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.justdial.com/Thanjavur/Dentists/nct-10156331"
+      },
+      "trust_score": 1,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Thanjai Dental Centre in Thanjavur",
+      "phone": null,
+      "address": null,
+      "website": "https://thanjavur.idbf.in/20170/thanjai-dental-centre",
+      "working_hours": null,
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://thanjavur.idbf.in/20170/thanjai-dental-centre"
+      },
+      "trust_score": 1,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Dr.Ramanathan's Dentistry in Thanjavur",
+      "phone": null,
+      "address": null,
+      "website": "https://thanjavur.idbf.in/4048459/dr-ramanathan-s-dentistry",
+      "working_hours": null,
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://thanjavur.idbf.in/4048459/dr-ramanathan-s-dentistry"
+      },
+      "trust_score": 1,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "\u0baa\u0bb2\u0bcd \u0bae\u0bb0\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5\u0bb0\u0bcd\u0b95\u0bb3\u0bcd - \u0ba4\u0b9e\u0bcd\u0b9a\u0bb5\u0bc2\u0bb0\u0bcd - Justdial",
+      "phone": null,
+      "address": null,
+      "website": "https://www.justdial.com/ta/Thanjavur/Dentists/nct-10156331",
+      "working_hours": null,
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.justdial.com/ta/Thanjavur/Dentists/nct-10156331"
+      },
+      "trust_score": 1,
+      "conflict_flags": []
+    }
+  ]
+}

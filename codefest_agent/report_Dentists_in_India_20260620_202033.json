@@ -1,0 +1,198 @@
+{
+  "search_summary": {
+    "query": "Dentists in India",
+    "timestamp": "2026-06-20T14:50:33.553040",
+    "businesses_found": 11,
+    "businesses_verified": 2,
+    "duplicates_removed": 2,
+    "sources_searched": 15,
+    "research_duration": "50.8 seconds",
+    "source": "live"
+  },
+  "data_quality": {
+    "records_with_phone": "18%",
+    "records_with_address": "0%",
+    "records_with_website": "100%",
+    "records_with_rating": "55%",
+    "records_with_hours": "91%"
+  },
+  "businesses": [
+    {
+      "business_name": "Verma Dental Clinic Pathankot Dentist Gandhi Chowk",
+      "phone": "1-8699763930",
+      "address": null,
+      "website": "https://www.aboutpathankot.com/verma-dental-clinic/",
+      "working_hours": "ame* Email* Website Save my name, email, and website in this browser for the next time I comment. Se",
+      "rating": 1.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.aboutpathankot.com/verma-dental-clinic/",
+        "phone": "https://www.aboutpathankot.com/verma-dental-clinic/",
+        "working_hours": "https://www.aboutpathankot.com/verma-dental-clinic/"
+      },
+      "trust_score": 6,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Free Classifieds Ads In India Buy/Sell/Rent",
+      "phone": "9818741088",
+      "address": null,
+      "website": "https://tuffclassified.com/best-dentist-in-noida_2195533",
+      "working_hours": "am of highly skilled dentists and support staff, we offer a comprehensive range of procedures, inclu",
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://tuffclassified.com/best-dentist-in-noida_2195533",
+        "phone": "https://tuffclassified.com/best-dentist-in-noida_2195533",
+        "working_hours": "https://tuffclassified.com/best-dentist-in-noida_2195533"
+      },
+      "trust_score": 5,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "20 BEST Dentists in Ahmedabad, India",
+      "phone": null,
+      "address": null,
+      "website": "https://edir24.com/b/v/in/ahmedabad/dentists",
+      "working_hours": "amal Cross Road, Satellite,, Ahmedabad, Gujarat 380015, India Rating: 4.9 / 5 ( 57 ) Votes CONTACT D",
+      "rating": 5.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://edir24.com/b/v/in/ahmedabad/dentists",
+        "working_hours": "https://edir24.com/b/v/in/ahmedabad/dentists"
+      },
+      "trust_score": 4,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "DR BHUTANI DENTAL CLINIC",
+      "phone": null,
+      "address": null,
+      "website": "https://edir24.com/b/v/in/delhi/dentists/ChIJMWQVNg0DDTkR67-nrkf_PCY",
+      "working_hours": "ame DR BHUTANI DENTAL CLINIC Address Metro Station, Blue Line And, B-7 1st Floor, Rajouri Garden , (",
+      "rating": 4.8,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://edir24.com/b/v/in/delhi/dentists/ChIJMWQVNg0DDTkR67-nrkf_PCY",
+        "working_hours": "https://edir24.com/b/v/in/delhi/dentists/ChIJMWQVNg0DDTkR67-nrkf_PCY"
+      },
+      "trust_score": 4,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Delhi Dental Center",
+      "phone": null,
+      "address": null,
+      "website": "https://edir24.com/b/v/in/delhi/dentists/ChIJ294iAF77DDkRlv_wvNU_LnM",
+      "working_hours": "ame Delhi Dental Center Address Red Light, Near, 76 Radhey Puri, Extension-1, Jagat Puri, Delhi 1100",
+      "rating": 4.2,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://edir24.com/b/v/in/delhi/dentists/ChIJ294iAF77DDkRlv_wvNU_LnM",
+        "working_hours": "https://edir24.com/b/v/in/delhi/dentists/ChIJ294iAF77DDkRlv_wvNU_LnM"
+      },
+      "trust_score": 4,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "20 BEST Dentists in Srinagar, India",
+      "phone": null,
+      "address": null,
+      "website": "https://edir24.com/b/v/in/srinagar/dentists",
+      "working_hours": "ammu and Kashmir 190020 Rating: 5 / 5 ( 61 ) Votes CONTACT DETAILS Odonto Care Jigar Complex, Bazaar",
+      "rating": 5.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://edir24.com/b/v/in/srinagar/dentists",
+        "working_hours": "https://edir24.com/b/v/in/srinagar/dentists"
+      },
+      "trust_score": 4,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "10 Best Digital Marketing Agencies for Dentists in India",
+      "phone": null,
+      "address": null,
+      "website": "https://marketmystique.com/best-digital-marketing-agencies-for-dentists-in-india/",
+      "working_hours": "open communication are major pointers. Also Read: Digital Marketing Agencies for Doctors in Hyderaba",
+      "rating": 1.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://marketmystique.com/best-digital-marketing-agencies-for-dentists-in-india/",
+        "working_hours": "https://marketmystique.com/best-digital-marketing-agencies-for-dentists-in-india/"
+      },
+      "trust_score": 4,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "SEO friendly websites for Dentist in India",
+      "phone": null,
+      "address": null,
+      "website": "https://www.creativewebsols.com/portfoliohtml/dental-specialists-india/",
+      "working_hours": "opening hours, accepted insurances, and types of procedures offered. Technical SEO: Clean Website St",
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.creativewebsols.com/portfoliohtml/dental-specialists-india/",
+        "working_hours": "https://www.creativewebsols.com/portfoliohtml/dental-specialists-india/"
+      },
+      "trust_score": 3,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Privacy Policy",
+      "phone": null,
+      "address": null,
+      "website": "https://www.thedentistshop.com/privacy-policy",
+      "working_hours": "ame, address, phone number, email address. We may also collect information about your use of our sit",
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.thedentistshop.com/privacy-policy",
+        "working_hours": "https://www.thedentistshop.com/privacy-policy"
+      },
+      "trust_score": 3,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Attention Required!",
+      "phone": null,
+      "address": null,
+      "website": "https://www.yellowpages.com/indianapolis-in/dentists",
+      "working_hours": "ame up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a0eb9624df577f",
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.yellowpages.com/",
+        "working_hours": "https://www.yellowpages.com/"
+      },
+      "trust_score": 3,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "20 BEST Dentists in Delhi, India - EDIR24",
+      "phone": null,
+      "address": null,
+      "website": "https://edir24.com/b/v/in/delhi/dentists",
+      "working_hours": null,
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://edir24.com/b/v/in/delhi/dentists"
+      },
+      "trust_score": 1,
+      "conflict_flags": []
+    }
+  ]
+}

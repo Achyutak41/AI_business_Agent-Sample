@@ -1,0 +1,46 @@
+{
+  "search_summary": {
+    "query": "Dentists in Austin",
+    "timestamp": "2026-06-20T14:38:14.265155",
+    "businesses_found": 2,
+    "businesses_verified": 1,
+    "duplicates_removed": 1,
+    "sources_searched": 3,
+    "research_duration": "14.5 seconds"
+  },
+  "data_quality": {
+    "records_with_phone": "100%",
+    "records_with_address": "50%",
+    "records_with_website": "100%",
+    "records_with_rating": "50%",
+    "records_with_hours": "50%"
+  },
+  "businesses": [
+    {
+      "business_name": "38th Street Dental",
+      "phone": "(512) 458-6222",
+      "address": "1500 W 38th St Austin TX",
+      "website": "38thstreetdental.com",
+      "rating": 4.5,
+      "working_hours": "Mon-Fri 8am-5pm",
+      "trust_score": 8,
+      "conflict_flags": [],
+      "source_urls": {
+        "website": "site1.com"
+      }
+    },
+    {
+      "business_name": "Smiles of Austin",
+      "phone": "(512) 451-8310",
+      "address": null,
+      "website": "smilesofaustin.com",
+      "rating": null,
+      "working_hours": null,
+      "trust_score": 3,
+      "conflict_flags": [],
+      "source_urls": {
+        "website": "site1.com"
+      }
+    }
+  ]
+}

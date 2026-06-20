@@ -1,0 +1,192 @@
+{
+  "search_summary": {
+    "query": "Dentists in Austin",
+    "timestamp": "2026-06-20T14:43:28.113486",
+    "businesses_found": 10,
+    "businesses_verified": 8,
+    "duplicates_removed": 0,
+    "sources_searched": 15,
+    "research_duration": "31.1 seconds",
+    "source": "live"
+  },
+  "data_quality": {
+    "records_with_phone": "80%",
+    "records_with_address": "40%",
+    "records_with_website": "100%",
+    "records_with_rating": "60%",
+    "records_with_hours": "90%"
+  },
+  "businesses": [
+    {
+      "business_name": "38th Street Dental: Dentist Austin, TX",
+      "phone": "(512) 458-6222",
+      "address": "1500 W 38th St Ste 56 Austin,\n  TX  78731",
+      "website": "https://www.myaustindds.com/",
+      "working_hours": "Monday through Thursday, 7:30am - 4:00pm. Your First Visit to 38th Street Dental What Patients Can E",
+      "rating": 4.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.myaustindds.com/",
+        "phone": "https://www.myaustindds.com/",
+        "address": "https://www.myaustindds.com/",
+        "working_hours": "https://www.myaustindds.com/"
+      },
+      "trust_score": 8,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Dentist in Austin, TX",
+      "phone": "512-795-0008",
+      "address": "12601 Metric Blvd Ste 2A Austin, TX 78727",
+      "website": "https://www.rosedental.com/",
+      "working_hours": "AMS DENTAL SEALANTS FLUORIDE TREATMENTS HOW TO PROPERLY BRUSH AND FLOSS ORAL CANCER SCREENING GUM DI",
+      "rating": 3.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.rosedental.com/",
+        "phone": "https://www.rosedental.com/",
+        "address": "https://www.rosedental.com/",
+        "working_hours": "https://www.rosedental.com/"
+      },
+      "trust_score": 8,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Advanced Dental Care of Austin in Austin, TX 78729",
+      "phone": "(512) 331-1477",
+      "address": "4807 Spicewood Springs Rd Austin, TX 78759",
+      "website": "https://www.chamberofcommerce.com/business-directory/texas/austin/dentist/6313779-advanced-dental-care-of-austin",
+      "working_hours": "Monday: 7:00 AM - 6:00 PM Tuesday: 7:00 AM - 6:00 PM Wednesday: 7:00 AM - 6:00 PM Thursday: 7:00 AM",
+      "rating": 3.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.chamberofcommerce.com/business-directory/texas/austin/dentist/6313779-advanced-dental-care-of-austin",
+        "phone": "https://www.chamberofcommerce.com/business-directory/texas/austin/dentist/6313779-advanced-dental-care-of-austin",
+        "address": "https://www.chamberofcommerce.com/business-directory/texas/austin/dentist/6313779-advanced-dental-care-of-austin",
+        "working_hours": "https://www.chamberofcommerce.com/business-directory/texas/austin/dentist/6313779-advanced-dental-care-of-austin"
+      },
+      "trust_score": 8,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Breeze Dental: Dentist Austin, TX",
+      "phone": "(512) 828-7659",
+      "address": "1601 S Lamar Blvd, Austin, TX 78704",
+      "website": "https://www.breezeoralcare.com/",
+      "working_hours": "amar Office (512) 828-7659 S Lamar Office (512) 828-6471 5th Street Office (512) 535-3888 Locations",
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.breezeoralcare.com/",
+        "phone": "https://www.breezeoralcare.com/",
+        "address": "https://www.breezeoralcare.com/",
+        "working_hours": "https://www.breezeoralcare.com/"
+      },
+      "trust_score": 7,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Contact Us \u2013 Smiles of Austin",
+      "phone": "(512) 451-8310",
+      "address": null,
+      "website": "https://www.smilesofaustin.net/austin-tx/contact-us/",
+      "working_hours": "Monday : 7:00am \u2013 4:00pm Tuesday : 7:00am \u2013 4:00pm Wednesday : 7:00am \u2013 4:00pm Thursday : 7:00am \u2013 4",
+      "rating": 3.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.smilesofaustin.net/austin-tx/contact-us/",
+        "phone": "https://www.smilesofaustin.net/austin-tx/contact-us/",
+        "working_hours": "https://www.smilesofaustin.net/austin-tx/contact-us/"
+      },
+      "trust_score": 6,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Contact",
+      "phone": "(737) 203-8538",
+      "address": null,
+      "website": "https://www.trudentistryaustin.com/contact-us/",
+      "working_hours": "Hours Mon - Thurs: 7:00AM - 4:00PM Fri: 7:00AM - 1:00PM Sat - Sun: Closed Your 5-Star Dentist in Aus",
+      "rating": 1.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.trudentistryaustin.com/contact-us/",
+        "phone": "https://www.trudentistryaustin.com/contact-us/",
+        "working_hours": "https://www.trudentistryaustin.com/contact-us/"
+      },
+      "trust_score": 6,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Contact Us - Austin Dental Center, PC - 2304 Hancock Dr. Suite 1 ...",
+      "phone": "(512) 454-0414",
+      "address": null,
+      "website": "https://www.smileaustin.com/contact/",
+      "working_hours": "Monday \u2013 Thursday: 7:00-5:00 Friday \u2013 Sunday: Closed Telephone (512) 454-0414 Email info@smileaustin",
+      "rating": 2.0,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.smileaustin.com/contact/",
+        "phone": "https://www.smileaustin.com/contact/",
+        "working_hours": "https://www.smileaustin.com/contact/"
+      },
+      "trust_score": 6,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Home",
+      "phone": "(512) 717-3147",
+      "address": null,
+      "website": "https://www.atxfamilydental.com/",
+      "working_hours": "Monday 8am - 5pm Tuesday 8am - 5pm Wednesday 8am - 5pm Thursday 8am - 5pm Friday 8am - 4pm \u00a9 2026 Al",
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.atxfamilydental.com/",
+        "phone": "https://www.atxfamilydental.com/",
+        "working_hours": "https://www.atxfamilydental.com/"
+      },
+      "trust_score": 5,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Attention Required!",
+      "phone": null,
+      "address": null,
+      "website": "https://www.yellowpages.com/austin-tx/dentists",
+      "working_hours": "ame up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a0eb8b839ac79d",
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.yellowpages.com/austin-tx/dentists",
+        "working_hours": "https://www.yellowpages.com/austin-tx/dentists"
+      },
+      "trust_score": 3,
+      "conflict_flags": []
+    },
+    {
+      "business_name": "Contact Our Office in Austin, TX - Northwest Austin Dentists",
+      "phone": null,
+      "address": null,
+      "website": "https://www.northwestaustindentists.com/about-us/contact-us/",
+      "working_hours": null,
+      "rating": null,
+      "review_count": null,
+      "services": [],
+      "source_urls": {
+        "website": "https://www.northwestaustindentists.com/about-us/contact-us/"
+      },
+      "trust_score": 1,
+      "conflict_flags": []
+    }
+  ]
+}
