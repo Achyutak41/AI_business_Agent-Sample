@@ -2,13 +2,11 @@ streamlit
 duckduckgo-search
 ddgs>=9.5.2
 bs4 
-time
 pymongo
 python-dotenv
 requests
 difflib
 verifier
-json
 pandas
 reportlab
 pydantic 
